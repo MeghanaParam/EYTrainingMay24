@@ -5,21 +5,12 @@
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"filename": {
-				"type": "string",
-				"defaultValue": "users_001.csv"
-			}
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": {
-					"value": "@dataset().filename",
-					"type": "Expression"
-				},
+				"fileName": "users_002.csv",
 				"folderPath": "userprofiles/Raw",
 				"fileSystem": "con-ey-adf-param"
 			},

@@ -2,16 +2,16 @@
 	"name": "Json1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
+				"type": "AzureBlobStorageLocation",
 				"folderPath": "userprofiles/JSON_Output",
-				"fileSystem": "con-ey-adf-param"
+				"container": "con-ey-adf-param"
 			}
 		},
 		"schema": {}

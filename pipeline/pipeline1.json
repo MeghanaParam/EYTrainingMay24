@@ -29,7 +29,7 @@
 					"sink": {
 						"type": "JsonSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
+							"type": "AzureBlobStorageWriteSettings"
 						},
 						"formatSettings": {
 							"type": "JsonWriteSettings"
@@ -52,7 +52,7 @@
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2024-05-14T06:50:45Z"
+		"lastPublishTime": "2024-05-14T07:54:07Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
