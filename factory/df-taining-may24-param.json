@@ -1,0 +1,9 @@
+{
+	"name": "df-taining-may24-param",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d78b4a83-695c-48f1-a30d-d9f3045e4fc6",
+		"tenantId": "5b973f99-77df-4beb-b27d-aa0c70b8482c"
+	}
+}
