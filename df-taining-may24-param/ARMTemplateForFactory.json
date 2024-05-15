@@ -93,18 +93,6 @@
 									},
 									{
 										"source": {
-											"name": "dob",
-											"type": "String",
-											"physicalType": "String"
-										},
-										"sink": {
-											"name": "dob",
-											"type": "DateTime",
-											"physicalType": "date"
-										}
-									},
-									{
-										"source": {
 											"name": "email",
 											"type": "String",
 											"physicalType": "String"
