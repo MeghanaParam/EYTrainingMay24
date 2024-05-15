@@ -9,8 +9,8 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "raw",
-			"table": "testtable1"
+			"schema": "dbo",
+			"table": "user_info"
 		}
 	}
 }
