@@ -61,7 +61,9 @@
 							"sink": {
 								"type": "AzureSqlSink",
 								"writeBehavior": "insert",
-								"sqlWriterUseTableLock": false
+								"sqlWriterUseTableLock": false,
+								"tableOption": "autoCreate",
+								"disableMetricsCollection": false
 							},
 							"enableStaging": false,
 							"translator": {
@@ -227,7 +229,7 @@
 				"schema": [],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "user_info"
+					"table": "user_info2"
 				}
 			},
 			"dependsOn": [
