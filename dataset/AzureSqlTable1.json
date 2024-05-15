@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "user_info"
+			"table": "user_info2"
 		}
 	}
 }
